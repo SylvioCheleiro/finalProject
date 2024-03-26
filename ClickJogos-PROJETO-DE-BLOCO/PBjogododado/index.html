@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jogos de Dado</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="../index.html" class="logo"> <img src="clickjogos.webp">
+    </a>
+    <nav class="navbar">
+      <a href="../contato/index.html" title="Contato">Contato </a>
+      <a href="../portifolio/index.html" title="Portifolio Sylvio" target="_blank"> Portifolio </a>
+    </nav>
+  </header>
+
+
+
+  <main>
+    
+    <h1>Jogo de Dados</h1>
+
+    <div class="geral">
+      <p> Escolha um número de 1 a 6:
+        <input type="text" id="palpite" size="3" />
+        <input type="button" value="Sortear" onclick="jogar()" />
+      </p>
+    </div>
+
+    <div class="dado-imagem">
+      <img src="dice_1.gif" id="dado" alt="dado" />
+    </div>
+
+    <div id="mensagem">
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p> Todos os direitos reservados | &copy;Sylvio cheleiro</p>
+  </footer>
+
+</body>
+
+</html>

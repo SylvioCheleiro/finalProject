@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family= Pangolin & family= Roboto:wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(63, 28, 56, 1) 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 10px;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b6b70;
+}
+
+/*---------------config-------------- */
+
+
+/*header-------------- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  
+}
+
+.navbar a {
+  font-size: 14px;
+  color: #e0e1dd;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 80px;
+  transition: .3s;
+}
+
+.navbar a:hover {
+  color: #3c3c58;
+}
+
+/*header-------------- */
+
+
+
+
+/*-------------main-------------- */
+
+
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 72px;
+}
+
+.geral {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dado-imagem {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#mensagem {
+  text-align: center;
+  margin-top: 32px;
+}
+
+
+
+
+/*-------------main-------------- */
+
+
+
+
+
+/*-------------footer-------------- */
+
+footer {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  height: 1vh;
+  color: #c5d4e8;
+  justify-content: center;
+}
+
+#contador {
+  overflow: hidden;
+}
+
+/*-------------footer-------------- */
